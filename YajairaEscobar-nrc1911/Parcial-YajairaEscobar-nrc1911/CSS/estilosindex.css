@@ -1,0 +1,263 @@
+/*ajustes de cabecera*/
+header{
+  background-color: burlywood;
+  color: bisque;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /*header por encima*/
+  text-align: center;
+  display: flex;
+}
+
+/*ajustes de body*/
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 231, 237);
+  justify-content: center;
+  align-items: center;
+}
+
+/* ajustes de main*/
+main{
+  padding: 20px;
+  border-radius: 0;
+}
+
+section{
+  margin-bottom: 50px;
+}
+
+h1{
+  border-bottom: 1px solid #dd2c8e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+  border-bottom: 1px solid #866a0d;
+  padding-bottom: 10px;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+p{
+  line-height: 1.5;
+}
+
+
+/*ajustes de botones principales*/
+.menubotones {
+border-radius: 20px;
+text-decoration:none;
+font-weight:50;
+font-size:20px;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:15px;
+padding-right:15px;
+background-color:#a8f0b2;
+}
+
+.menubotones:hover {
+  background-color:#24c2f1;
+  }
+
+
+  /*ajustes de seccion presentacion*/
+
+.primera-seccion {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  text-align: center;}
+  
+  .contenedoruno img{
+    width: 90%;
+    height: auto;
+    transition-timing-function: ease-in;
+  }
+  
+  .contenedoruno:hover img {
+      transform: scale(1.2);
+      opacity: 0.8;
+}
+
+
+
+/* ajustes de botones de cada seccion*/
+.botonlibre{
+  border-radius: 20px;
+  text-decoration:none;
+  font-weight:50;
+  font-size:20px;
+  padding-top:1px;
+  padding-bottom:1px;
+  padding-left:1px;
+  padding-right:1px;
+  background-color:#8477f1;
+  }
+
+.botonlibre02{
+border-radius: 20px;
+text-decoration:none;
+font-weight:50;
+font-size:20px;
+padding-top:1px;
+padding-bottom:1px;
+padding-left:1px;
+padding-right:1px;
+background-color:#a8f0b2;
+}
+
+/*ajustes de contenedores*/
+
+.contenedoruno{
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(241, 234, 234);
+}
+
+/*fina seleccion*/
+.contenedordos{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin: 0;
+  background-color: rgb(189, 141, 103);
+}
+
+/*delicias de chocolate*/
+.contenedortres{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(235, 155, 168);
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/*free gluten*/
+.contenedorcuatro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(243, 215, 182);
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/*catering*/
+.contenedorcinco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(221, 243, 181);
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/*bodas*/
+.contenedorseis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(208, 237, 247);
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ajustes de columnn*/
+.column{
+  position: relative;
+  overflow: hidden;
+  text-align: center;}
+
+.column img{
+  width: 100%;
+  height: auto;
+  transition-timing-function: ease;
+}
+
+.column p{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background:  rgba(0, 0, 0, 0.5s);
+  padding: 5px;
+  color: rgb(251, 251, 252);
+}
+
+.column:hover img {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+
+/*ajustes de column01 BODAS*/
+.column01{
+  position: relative;
+  overflow: hidden;
+  text-align: center;}
+
+.column01 img{
+  width: 100%;
+  height: auto;
+  transition-timing-function: ease;
+}
+
+.column01 p{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background:  rgba(0, 0, 0, 0.5s);
+  padding: 5px;
+  color: rgb(2, 2, 15);
+}
+
+.column01:hover img {
+    transform: scale(1.2);
+    opacity: 0.8;
+    filter: none;
+}
+
+
+.column01 img{
+  width: 100%;
+  height: auto;
+  transition-timing-function: ease;
+  filter: sepia(100%);
+}
+
+
+/* ajustes de footer*/
+.footer{
+  background-color: #ccb56b;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  align-items: justify;
+}
